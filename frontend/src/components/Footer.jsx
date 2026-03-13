@@ -30,10 +30,10 @@ const Footer = () => {
 
         <div className="Social-links">
 
-          <li> <Link to={`https://web.facebook.com/hecodes.js.py` } target='_blank'> <FaFacebook /> </Link></li>
-          <li> <FaLinkedin /> </li>
+          <li> <Link to={`https://web.facebook.com/saajnaa.456` } target='_blank'> <FaFacebook /> </Link></li>
+          <li><Link to={`https://www.linkedin.com/in/saajnaa123` } target='_blank'> <FaLinkedin /> </Link></li>
           <li> <Link to={`https://github.com/saajnaa` } target='_blank'> <BsGithub /> </Link></li>
-          <li>  <Link to={`https://tiktok.com/hecodes.js` } target='_blank'>  <FaTiktok /> </Link></li>
+          <li>  <Link to={`https://tiktok.com/saajnaa.123` } target='_blank'>  <FaTiktok /> </Link></li>
           <li> <Link to={`https://twitter.com/milkywayk218b` } target='_blank'>  <BsTwitterX/></Link> </li>
 
 
