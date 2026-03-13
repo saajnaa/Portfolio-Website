@@ -16,8 +16,8 @@ function Home() {
 
 
       <Hero/>
-      <Projects />
       <AiProject/> 
+      <Projects />
       <Techstack/>
       <Services />
 

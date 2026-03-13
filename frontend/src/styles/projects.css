@@ -18,15 +18,12 @@
 
 
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 800;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 16px;
     margin-bottom: 10px;
-    letter-spacing: 2px;
-    color: rgb(2, 3, 12);
-    border-bottom: .5px solid rgb(32, 11, 66);
-
-
+    color: #1f0944;
+    border-bottom: .1px solid gray;
 
 }
 
@@ -34,7 +31,7 @@
 
 .project-container {
 
-     display: grid;
+    display: grid;
     grid-template-columns: 250px 250px 250px 250px;
     justify-content: center;
     padding: 25px 20px;
@@ -172,6 +169,17 @@
 @media screen and (max-width:500px) {
 
 
+    .project-section h2 {
+        font-size: 26px;
+        font-family: robot;
+        font-weight: 700;
+        color: #2f0c68;
+
+
+    }
+
+
+
     .project-container {
         width: 100%;
         display: flex;
@@ -179,11 +187,16 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
+        margin-top: -16px;
+
     }
 
 
+
+
+
     .project {
-        width: 240px;
+        width: 280px;
     }
 
 

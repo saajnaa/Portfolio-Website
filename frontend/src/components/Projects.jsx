@@ -35,12 +35,11 @@ const Projectsdata = [
         "sourceCode": "123"
     },
     {
-
         "id": 2,
         "name": "Golden Park College",
         "image": gpc,
         "demo": "https://golden-park-college.vercel.app",
-        "paragraph": "Programming quiz is a programming related web based quiz app",
+        "paragraph": " This WebApp showcasing the college's academic programs, campus life, and community initiatives.",
         "sourceCode": "123"
     },
     {
@@ -48,7 +47,7 @@ const Projectsdata = [
         "name": "Contact Application",
         "image": byc,
         "demo": "github.com/saajnaa/gpcl",
-        "paragraph": "Programming quiz is a programming related web based quiz app",
+        "paragraph": " This App offering features like adding, editing, deleting, and searching contacts efficiently.",
         "sourceCode": "123"
 
     },
@@ -57,7 +56,7 @@ const Projectsdata = [
         "name": "Barju Yuwa club",
         "image": byc,
         "demo": "https://barju-yuwa-club.vercel.app",
-        "paragraph": "Programming quiz is a programming related web based quiz app",
+        "paragraph": " focused on youth empowerment, organizing events, workshops, social responsibility.",
         "sourceCode": "123"
 
     },
@@ -79,7 +78,7 @@ function Projects() {
             <div className="project-section">
 
 
-                <h2> Take A Closer Look!</h2>
+                <h2> take a closer look!</h2>
                 <div className="project-container">
 
                     {  
