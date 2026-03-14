@@ -16,7 +16,7 @@ function AiProject() {
             "id": 1,
             "name": "Himalyara Ai",
             "image": aiImage,
-            "paragraph": "AI Without Limits — Redefining What’s Possible with AI. Experience the future of artificial intelligence with Nepo AI, where innovation meets limitless possibilities. Join us on this exciting journey as we redefine what's possible with AI.",
+            "paragraph": "AI Without Limits — Redefining What’s Possible with AI. Experience the future of artificial intelligence with Himalyara AI, where innovation meets limitless possibilities. Join us on this exciting journey as we redefine what's possible with AI.",
             "demo": "https://nepoai.vercel.app ",
             "sourceCode": "123"
 
