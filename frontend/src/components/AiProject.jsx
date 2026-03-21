@@ -17,8 +17,8 @@ function AiProject() {
             "name": "Himalyara Ai",
             "image": aiImage,
             "paragraph": "AI Without Limits — Redefining What’s Possible with AI. Experience the future of artificial intelligence with Himalyara AI, where innovation meets limitless possibilities. Join us on this exciting journey as we redefine what's possible with AI.",
-            "demo": "https://nepoai.vercel.app ",
-            "sourceCode": "123"
+            "demo": "https://himalyara-ai.vercel.app" ,
+            "sourceCode": "https://github.com/saajnaa/Himalyara-Ai"
 
         },
 
