@@ -57,10 +57,14 @@ function Navbar() {
 
 
                     <ul className={showlink ? "mobile-menu" : "web-menu"}>
-                        <NavLink onClick={() => Setshowlink(false)} className={({ isActive }) => isActive ? " Activelink " : " link "} to="/"> <AiOutlineHome /> </NavLink>
+                        <NavLink id="home-icon" onClick={() => Setshowlink(false)} className={({ isActive }) => isActive ? " Activelink " : " link "} to="/"> <AiOutlineHome /> </NavLink>
+
                         <NavLink onClick={() => Setshowlink(false)} className={({ isActive }) => isActive ? " Activelink " : " link "} to="/projects"> Projects </NavLink>
+
                         <NavLink onClick={() => Setshowlink(false)} className={({ isActive }) => isActive ? " Activelink " : " link "} to="/resume"> Resume </NavLink>
+
                         <NavLink onClick={() => Setshowlink(false)} className={({ isActive }) => isActive ? " Activelink " : " link "} to="/blog"> Blog </NavLink>
+
                         <NavLink onClick={() => Setshowlink(false)} className={({ isActive }) => isActive ? " Activelink " : " link "} to="/contact"> Contact </NavLink>
 
                     </ul>

@@ -6,9 +6,10 @@ footer {
     padding: 8px;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 5px gray;
-    background: rgb(10, 29, 48);
+     background: rgb(1, 4, 7);
     width: 100%;
+    position:absolute;
+    bottom: 0;
 
 }
 

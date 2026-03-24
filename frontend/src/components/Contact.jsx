@@ -69,25 +69,25 @@ function Contact() {
     <>
 
       <div className="form-section">
-        <h2> Let's Discuss About Your idea</h2>
+        <h2>⚡ Let's Discuss About Your idea 🔥</h2>
         <form onSubmit={handleSubmit(onsubmit)}>
 
           {isSubmitting && <span id='sendingSpan'>Sending Message...</span>}
 
-          <label htmlFor="text">Name</label>
-          <input type="text" placeholder='Your  Name' {...register('name', { required: { value: true, message: "Name is required!" }, minLength: { value: 4, message: 'minimum lenght is 4' } })} />
+          <label htmlFor="text">Name * </label>
+          <input type="text" placeholder='Your Name!' {...register('name', { required: { value: true, message: "please enter You Name!" }, minLength: { value: 4, message: 'minimum lenght is 4' } })} />
           {errors.name && <span className=' text-red-900'>{errors.name.message}</span>}
 
-          <label htmlFor="email"> Your Email</label>
-          <input type="email" placeholder='Your Email Address!'  {...register('email', { required: { value: true, message: "Email is required!" } })} />
+          <label htmlFor="email"> Your Email *</label>
+          <input type="email" placeholder='Your Email Address!'  {...register('email', { required: { value: true, message: "please enter You Email!" } })} />
           {errors.email && <span className='text-red-900'>{errors.email.message}</span>}
 
 
-          <label htmlFor="message">Message</label>
-          <textarea id='message' placeholder='write message'  {...register('message', { required: true, })} />
+          <label htmlFor="message">Message *</label>
+          <textarea id='message' placeholder='Write Your Message Here!'  {...register('message', { required: true, })} />
 
           <div className="submit">
-            <input disabled={isSubmitting} id='submit' type="submit" value="submit" />
+            <input disabled={isSubmitting} id='submit' type="submit" value="send" />
           </div>
 
         </form>

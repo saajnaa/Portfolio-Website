@@ -11,11 +11,11 @@
 
 .technology-section h1 {
 
-    text-align: center;
+      text-align: center;
     font-size: 28px;
     font-family: sans-serif;
     font-weight: 700;
-    color: rgb(6, 11, 53);
+    color: #f1eff5;
     border-bottom: .5px solid rgb(32, 11, 66);
 
 
@@ -38,8 +38,9 @@
 
 .technology {
 
+    color: rgb(142, 141, 212);
     border-radius: 8px;
-    background: #cac8c883;
+    background: #1d0642;
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -52,7 +53,7 @@
 }
 
 .technology:hover {
-    background: #c9c6c63d;
+    background: #3733f793;
 
 
 }
@@ -61,15 +62,13 @@
 
 
     font-size: 25px;
-    color: rgb(5, 11, 70);
-
+ 
 }
 
 .technology p {
 
     font-size: 16px;
-    color: rgb(1, 1, 8);
-
+ 
 }
 
 

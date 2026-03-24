@@ -6,13 +6,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 100px;
 }
 
 .services h2 {
     text-align: center;
     font-size: 28px;
     font-weight: 700;
-    color: rgb(7, 10, 36);
+    color: rgb(238, 238, 243);
     border-bottom: .5px solid rgb(32, 11, 66);
 }
 
@@ -41,15 +42,14 @@
     list-style: disc;
     width: 100%;
     font-size: 19px;
-    color: rebeccapurple;
+     color: rgb(124, 10, 238);
 
 }
 
 .ul-service>li:hover {
 
     cursor: pointer;
-    color: rgb(124, 10, 238);
-
+color: aquamarine;
 }
 
 .service-img {

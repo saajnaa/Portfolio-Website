@@ -16,14 +16,15 @@
 
 .project-section h2 {
 
-
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #f1eff5;
     font-size: 28px;
-    font-weight: 800;
     text-align: center;
     margin-top: 16px;
     margin-bottom: 10px;
-    color: #1f0944;
-    border-bottom: .1px solid gray;
+    border-bottom: .5px solid rgb(23, 4, 129);
 
 }
 
@@ -46,14 +47,15 @@
 .project {
     display: flex;
     gap: 8px;
-    padding: 35px 0;
+    padding: 16px 4px 20px 4px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 8px;
+    border-radius: 6px;
     cursor: pointer;
     transition: 0.1s;
-    color: navy;
+    background: #333381;
+    color: rgb(255, 255, 255);
     border: 1px solid rgba(22, 22, 21, 0.363);
 
 
@@ -62,7 +64,7 @@
 .project img {
 
     width: 95%;
-    border-radius: 10px;
+    border-radius: 1px;
     margin-bottom: 4px;
 
 
@@ -74,6 +76,21 @@
 
     text-align: center;
 
+
+}
+
+.project #project-name {
+
+
+    font-weight: 600;
+    color: rgb(19, 167, 226);
+
+}
+
+.project #project-para {
+
+
+    color: whitesmoke;
 
 }
 
@@ -92,26 +109,27 @@
 
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    gap: 18px;
     margin-top: 8px;
+    font-size: 16px;
+    color: rgba(206, 196, 196, 0.637);
+
 
 }
 
 .button-project p:nth-child(1) {
 
 
-    color: whitesmoke;
-    background: #12058d;
-    padding: 4px 8px;
+    border-bottom: .5px solid gray;
 
 
 }
 
 .button-project p:nth-child(2) {
 
-    color: whitesmoke;
-    background: #c0053d;
-    padding: 4px 8px;
+    border-bottom: .5px solid gray;
+
+
 
 }
 

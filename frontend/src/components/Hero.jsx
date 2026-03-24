@@ -56,7 +56,7 @@ function Hero() {
 
 
                     <h2 id='heading'>Transforming Concepts Into Functional Platforms  <br /> <span> <ReactTypingEffect text={["React Developer ", "MERN Developer", "AI Integration", "FUll Stack Developer"]} speed={170} eraseSpeed={60} eraseDelay={90} typingDelay={30} /> </span></h2>
-                    <p id='paragraph'>With a strong foundation in JavaScript, I design and develop websites and applications using MongoDB, Express, React, and Node.js, with a focus on performance and simplicity</p>
+                    <p id='paragraph'>With a strong foundation in JavaScript, I design and develop web Apps using MongoDB, Express, React, and Node.js, with a focus on performance and simplicity</p>
 
                     <div className="button">
 

@@ -78,7 +78,7 @@ function Projects() {
             <div className="project-section">
 
 
-                <h2> take a closer look!</h2>
+                <h2> Take a closer look !</h2>
                 <div className="project-container">
 
                     {  
@@ -91,8 +91,8 @@ function Projects() {
 
                                 <img src={image} alt="logo" />
 
-                                <p> {name}</p>
-                                <p>{paragraph}</p>
+                                <p id='project-name'> {name}</p>
+                                <p id='project-para'>{paragraph}</p>
 
                                 <div className='button-project'>
                                     <p> <Link to={sourceCode} target='_blank'> Source Code</Link></p>
