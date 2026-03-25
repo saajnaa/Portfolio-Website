@@ -24,7 +24,7 @@
     text-align: center;
     margin-top: 16px;
     margin-bottom: 10px;
-    border-bottom: .5px solid rgb(23, 4, 129);
+    border-bottom: .5px solid rgb(45, 12, 236);
 
 }
 
@@ -33,7 +33,7 @@
 .project-container {
 
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-columns: 250px 250px 250px;
     justify-content: center;
     padding: 25px 20px;
     width: 90%;
@@ -54,9 +54,8 @@
     border-radius: 6px;
     cursor: pointer;
     transition: 0.1s;
-    background: #333381;
-    color: rgb(255, 255, 255);
-    border: 1px solid rgba(22, 22, 21, 0.363);
+     color: rgb(255, 255, 255);
+    border: 1px solid rgb(66, 66, 64);
 
 
 }
@@ -64,6 +63,7 @@
 .project img {
 
     width: 95%;
+    height: 120px;
     border-radius: 1px;
     margin-bottom: 4px;
 
@@ -76,21 +76,19 @@
 
     text-align: center;
 
-
 }
 
 .project #project-name {
 
 
     font-weight: 600;
-    color: rgb(19, 167, 226);
+    color: rgb(229, 231, 229);
 
 }
 
 .project #project-para {
-
-
-    color: whitesmoke;
+    width: 100%;
+    color: rgba(245, 245, 245, 0.616);
 
 }
 
@@ -112,23 +110,33 @@
     gap: 18px;
     margin-top: 8px;
     font-size: 16px;
-    color: rgba(206, 196, 196, 0.637);
+    color: rgb(255, 255, 255);
 
 
 }
 
 .button-project p:nth-child(1) {
 
+    background: #000;
+    padding: 2px 8px;
+    border-bottom: .5px solid rgb(255, 6, 6);
 
-    border-bottom: .5px solid gray;
+
+}
+
+
+.button-project p:nth-child(1):hover {
+
+    background: #000;
 
 
 }
 
 .button-project p:nth-child(2) {
 
-    border-bottom: .5px solid gray;
-
+    border-bottom: .5px solid rgb(29, 243, 10);
+    background: #000;
+    padding: 2px 8px;
 
 
 }
@@ -173,6 +181,29 @@
     }
 
 
+    .project img {
+
+        height: 150px;
+
+
+    }
+
+    .button-project p:nth-child(1) {
+
+         padding: 4px 12px;
+        border-bottom: .5px solid rgb(255, 6, 6);
+
+
+    }
+
+    .button-project p:nth-child(2) {
+
+        border-bottom: .5px solid rgb(29, 243, 10);
+        background: #000;
+        padding: 4px 12px;
+
+    }
+
 
     .project-section {
 
@@ -191,7 +222,6 @@
         font-size: 26px;
         font-family: robot;
         font-weight: 700;
-        color: #2f0c68;
 
 
     }
@@ -214,7 +244,7 @@
 
 
     .project {
-        width: 280px;
+        width: 300px;
     }
 
 

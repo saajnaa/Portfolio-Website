@@ -20,7 +20,15 @@
     background: none;
     border: none;
     cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+ }
 
+ .navbutton:hover,
+ .navbutton:focus {
+    background: transparent;
  }
 
 
@@ -133,8 +141,17 @@
     right: 8px;
     width: auto;
     border: none;
-
+    outline: none;
+    appearance: none;
  }
+.mobile-nav-icon:hover,
+.mobile-nav-icon:focus {
+background: transparent;
+
+
+}
+
+
 
  .mobile-nav-icon button {
 

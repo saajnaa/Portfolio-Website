@@ -17,10 +17,9 @@ import '../styles/projects.css'
 
 
 //==================== photo============================
-import codingTest from '../assets/project-img/codingTest.png'
-import byc from '../assets/project-img/byc.png'
-import gpc from '../assets/project-img/gpc.png'
-
+import cafeImg from '../assets/project-img/cafe.jpg'
+import AbbsImg from '../assets/project-img/abbs.jpg'
+import bycImg from '../assets/project-img/byc.png'
 
 
 const Projectsdata = [
@@ -28,33 +27,24 @@ const Projectsdata = [
 
     {
         "id": 1,
-        "name": "Coding Test App",
-        "image": codingTest,
-        "demo": "https://programming-quiz-five.vercel.app",
-        "paragraph": "Programming quiz is a programming related web based quiz app",
+        "name": "Cafe Website",
+        "image": cafeImg,
+        "demo": "",
+        "paragraph": "Modern and visually appealing cafe website, showcasing menu, ambiance, and online reservation.",
         "sourceCode": "123"
     },
     {
         "id": 2,
-        "name": "Golden Park College",
-        "image": gpc,
-        "demo": "https://golden-park-college.vercel.app",
-        "paragraph": " This WebApp showcasing the college's academic programs, campus life, and community initiatives.",
+        "name": "Alpha Beta Boarding School",
+        "image": AbbsImg,
+        "demo": "https://abbs-three.vercel.app",
+        "paragraph": "Showcasing the college's academic programs, campus life, and community initiatives.",
         "sourceCode": "123"
     },
     {
         "id": 3,
-        "name": "Contact Application",
-        "image": byc,
-        "demo": "github.com/saajnaa/gpcl",
-        "paragraph": " This App offering features like adding, editing, deleting, and searching contacts efficiently.",
-        "sourceCode": "123"
-
-    },
-    {
-        "id": 4,
         "name": "Barju Yuwa club",
-        "image": byc,
+        "image": bycImg,
         "demo": "https://barju-yuwa-club.vercel.app",
         "paragraph": " focused on youth empowerment, organizing events, workshops, social responsibility.",
         "sourceCode": "123"
