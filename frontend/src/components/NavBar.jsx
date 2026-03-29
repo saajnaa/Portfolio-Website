@@ -28,7 +28,7 @@ function Navbar() {
 
     }
 
-
+console.log(showlink);
     const navigate = useNavigate();
 
 
@@ -51,7 +51,7 @@ function Navbar() {
                             <img src={logo} alt="sajan logo" />
                             <h2>Sajan Rishidev</h2>
 
-                        </div>
+                        </div> 
 
                     </button>
 

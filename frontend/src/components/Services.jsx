@@ -1,6 +1,6 @@
 import React from 'react'
 
-import serviceImg from '../assets/Service.gif'
+import serviceImg from '../assets/web.gif'
 import '../styles/services.css'
 
 function Services() {
@@ -9,7 +9,7 @@ function Services() {
             <div className="services">
                 <h2>what i love to create ! </h2>
                 <div className="horizontal-align">
-                    <ul className='ul-service'>
+                    <ul id='ul-service'>
                         <li>Frontend development</li>
                         <li> Backend development</li>
                          <li>Ai App development</li>
@@ -17,7 +17,7 @@ function Services() {
                     </ul>
 
                     <div className="service-img">
-                        <img src={serviceImg} alt="service img" />
+                        <img src={ serviceImg } alt="service img" />
 
                     </div>
                 </div>

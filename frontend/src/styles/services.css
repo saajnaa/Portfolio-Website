@@ -4,9 +4,11 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+ justify-content: center;
     align-items: center;
-    margin: 100px;
+    margin-bottom: 120px;
+
+
 }
 
 .services h2 {
@@ -21,68 +23,81 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
 }
 
-.ul-service {
-
+#ul-service {
 
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 4px;
-    width: 40%;
-    padding: 0 20px;
 
 }
 
-.ul-service>li {
+#ul-service>li {
 
     list-style: disc;
     width: 100%;
-    font-size: 19px;
-     color: rgb(124, 10, 238);
+    font-size: 23px;
+    color: rgb(124, 10, 238);
 
 }
 
-.ul-service>li:hover {
+#ul-service>li:hover {
 
     cursor: pointer;
-color: aquamarine;
+    color: aquamarine;
 }
 
 .service-img {
 
-    width: 250px;
+    width: 200px;
 
 }
 
-@media only screen and (max-width:850px) {
+@media only screen and (max-width:600px) {
 
 
-    .services {
-
-
-        padding: 0 0 80px 0;
-        margin-bottom: 350px;
-    }
+    .services h2 {
+     font-size: 25px;
+    
+}
 
     .horizontal-align {
 
         flex-direction: column-reverse;
-        justify-items: center !important;
+        justify-content: center !important;
         align-items: center !important;
-
+        gap: 12px;
     }
 
-    .ul-service {
+    #ul-service {
 
-        width: 90%;
-        background: none;
-        margin-top: 200px;
-        padding: 30px;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        gap: 0;
+        display: flex;
+        flex-direction: column;
+        position: static;
+        background:none; 
+        padding: 0;
+         
     }
 
+    #ul-service>li {
+
+        font-size: 19px;
+    }
+
+    .service-img {
+
+        width: 150px;
+
+    }
 
 }
