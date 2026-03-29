@@ -57,8 +57,7 @@ const Projectsdata = [
 
 function Projects() {
 
-    console.log(Projectsdata[0])
-
+ 
     return (
 
 

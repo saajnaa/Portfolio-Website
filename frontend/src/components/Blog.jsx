@@ -5,7 +5,7 @@ import '../styles/blog.css'
 function Blog() {
   return (
     
-    <div className='div'>Blog Comming Soonn........</div>
+    <div className='div'>Technical content coming soon🥰</div>
   )
 }
 

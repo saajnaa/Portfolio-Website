@@ -4,7 +4,7 @@ import '../styles/blog.css'
 
 function Resume() {
   return (
-    <div className='div'>Resume Comming Soon.......</div>
+    <div className='div'>Resume Comming Soon🥰</div>
   )
 }
 

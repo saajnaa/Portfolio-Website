@@ -28,8 +28,7 @@ function Navbar() {
 
     }
 
-console.log(showlink);
-    const navigate = useNavigate();
+     const navigate = useNavigate();
 
 
     return (
