@@ -45,7 +45,7 @@ const Projectsdata = [
         "id": 3,
         "name": "Barju Yuwa club",
         "image": bycImg,
-        "demo": "https://barju-yuwa-club.vercel.app",
+        "demo": "https://barju-youth-club.vercel.app/",
         "paragraph": " focused on youth empowerment, organizing events, workshops, social responsibility.",
         "sourceCode": "123"
 
